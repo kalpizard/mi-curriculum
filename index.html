@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="src/color/styles.css" />
+  </head>
+
+  <body>
+    <div>
+      <!-- Esto es la barra superior-->
+
+      <div class="barra"></div>
+
+      <!--Texto de tareas por hacer -->
+      <div class="texto">
+        <p>Tareas por hacer</p>
+      </div>
+
+      <!-- cuerpo de acciones-->
+
+      <div class="cuerpo1">
+        <!--div izquierdo del cuerpo-->
+
+        <div class="cuerpo_izquierdo">
+          <!--div input texto -->
+
+          <input type="text" id="input" placeholder="Ingresar tarea" />
+
+          <button id="Boton1" onclick="agregarItems()">Agregar</button>
+        </div>
+
+        <!--div derecho del cuerpo-->
+
+        <div class="cuerpo_derecho">
+          <div class="tarea_text">
+            <h1>
+              tareas <br />
+              completadas
+            </h1>
+          </div>
+
+          <div class="circulo">
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="caja">
+        <!-- <div class="cajaNotificacion">
+        <div class="hijo">
+          <input type="checkbox">
+          <p class="tarea"></p>
+
+        </div>
+
+        <button>borrar</button> -->
+      </div>
+    </div>
+    <script src="src/java/main.js"></script>
+  </body>
+</html>

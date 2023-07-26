@@ -1,0 +1,104 @@
+/* INCLUYE DIV DE BARRA */
+
+.barra {
+  background-color: rgb(153, 155, 172);
+
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+/*INCLUYE DIV DE TAREAS*/
+.texto {
+  padding: 20px;
+  font-size: 31px;
+  text-align: center;
+  font-size: 50px;
+}
+
+/*INCLUYE DIV PAPA DE ACCIONES*/
+.cuerpo1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*INCLUYE DIV IZQUIERDO*/
+.cuerpo_izquierdo {
+  display: grid;
+  width: 20%;
+  height: 50%;
+}
+
+/*ESPECIFICAMENTE EL INPUT*/
+.cuerpo_izquierdo input {
+  width: 83%;
+  padding: 20px;
+  border-radius: 10px;
+}
+/*ESPECIFICAMENTE EL BOTON AGREGAR*/
+.cuerpo_izquierdo button {
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(74, 50, 207);
+  font-size: 20px;
+  color: white;
+}
+/* Nuevo item en la lista */
+.nuevoItem {
+  width: 300px;
+  height: 70px;
+}
+
+/* CUERPO1 PARTE DERECHA */
+
+.cuerpo_derecho {
+  display: flex;
+  margin-right: 2%;
+}
+
+.tarea_text {
+  display: flex;
+  margin-right: 80;
+  color: rgb(148, 144, 144);
+}
+
+.circulo {
+  font-size: 35px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+}
+
+.caja {
+  border: 2px dashed;
+  padding-bottom: 20%;
+  margin-top: 20px;
+  margin-left: 65px;
+  margin-right: 90px;
+}
+
+.cajaNotificacion {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hijo {
+  display: flex;
+}
+
+.tarea {
+  margin-left: 20px;
+}
